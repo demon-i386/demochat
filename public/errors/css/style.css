@@ -1,0 +1,17 @@
+.error-container .ghost{
+  margin-top: 40vw;
+  height:46vw;
+  margin-left:-2.1vw;
+}
+.error-container .error{
+  font-size: 5vw;
+  left: 50vw;
+  width: 50vw;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  padding-top: 55vw;
+  font-family: 'Press Start 2P';
+  font-size:5vw;
+  color: black;
+}

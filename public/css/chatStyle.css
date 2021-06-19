@@ -1,0 +1,183 @@
+
+.userInformation:nth-child(2) #messageInput input {
+  border: 3px solid #1A1A1A;
+  position: -webkit-sticky;
+  position: sticky; bottom: 0;
+}
+.onlineUsers{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 2vw;
+  border: 2px solid white;
+}
+
+
+.main-container .user-container .messageFooter #messageSend-btn {
+    visibility: hidden;
+}
+
+
+.main-container .user-container .messageFooter .message-input{
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  height: 30px;
+  font-size: 3vw;
+}
+
+#sidebar {
+  margin: 0;
+  padding: 0;
+  width: 20vw;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 1vw;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 2vw;
+  color: gray;
+  background-color: gray;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#userInformation #messageFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: #2D2D2D;
+}
+
+::selection {
+  color: red;
+  background: #2D2D2D;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+}
+a:hover,
+a:active {
+    outline: none;
+    box-shadow: none !important;
+}
+
+  .main-container .user-container .messageFooter #messageSend-btn {
+        visibility: visible;
+        font-size: 2vw;
+        padding: 10vw;
+        background: #2196F3;
+        color: white;
+        bottom: 100%;
+        font-size: 3vw;
+        height: 30px;
+        width: 30px;
+        float: bottom;
+        padding: 10px;
+        border: 1px solid  #2196F3;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        position: -webkit-sticky;
+        margin-bottom: 2vw;
+        border-radius:50%;
+        display:block;
+        text-align: center;
+        line-height: 1px;
+       position: -webkit-sticky;
+        bottom: 0;  
+    }
+
+
+
+@media screen and (max-width:1440px) {
+  @media screen and (max-height: 2960px){
+    .main-container .user-container .messageFooter #messageSend-btn {
+        visibility: visible;
+        font-size: 2vw;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        bottom: 100%;
+        font-size: 3vw;
+        height: 30px;
+        width: 30px;
+        float: bottom;
+        padding: 10px;
+        border: 1px solid  #2196F3;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        position: -webkit-sticky;
+        margin-bottom: 2vw;
+        border-radius:50%;
+        display:block;
+        text-align: center;
+        line-height: 1px;
+       position: -webkit-sticky;
+        bottom: 0;  
+    }
+    .main-container .user-container .messageFooter #messageSend-btn {
+      padding: 1vw 1vw 1vw 1vw;
+      height: 6vw;
+      width: 6vw;
+      background: gray;
+      color: white;
+      z-index: 3;
+      border: 0;
+      -webkit-appearance: none;
+      position: fixed;
+      margin-bottom: 2.2vw;
+      max-height: 6vw;
+      border-radius:2.5vw;
+      transform: translateX(0.9vw);
+    }
+    .main-container .user-container .messageFooter .message-input{
+      margin: auto;
+      font-size: 3vw;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      outline: none;
+      border-radius:3vw;
+      display: flex;
+      border: 1px solid #1A1A1A;
+      position: fixed;
+      padding: 3vw 7vw 3vw 7vw;
+      max-height: 6vw;
+      margin-bottom: 2vw;
+    }
+    .main-content .user-information #chat{
+      font-size: 1vw;
+      max-height: 5vw;
+    }
+
+  }
+}

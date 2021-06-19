@@ -1,0 +1,182 @@
+body{
+   background-color: #1A1A1A;
+   cursor: pointer;
+}
+
+.main-container{
+  background-color: #1A1A1A;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+.login-panel .login-btn{
+  font-family: 'Press Start 2P';
+  font-size:60%; 
+  background:none;
+  border:none;
+  margin:1px;
+  padding:0;
+  cursor:pointer;
+  float:right;
+  position: relative;
+  padding-top: 30px;
+  padding-right: 10px;
+  color:white;
+  display:inline-block;
+  text-decoration:none;
+}
+.login-panel .login-btn:hover{
+  color: #17714A;
+}
+.main-container .main-action-btn{
+    transition: all 0.1s;
+    background-color:#555555;
+    flex-direction: row;
+    position: relative;
+    box-shadow: 5px 5px #000, 4px 4px #000, 3px 3px #000, 2px 2px #000, 1px 1px #000, 0px 0px #000;
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    width: 200px;
+    margin: 25px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 15px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    vertical-align: middle;
+    color:white;
+}
+
+.main-container .banner .ghost{
+  height: auto;
+  align-items: center;
+  width: auto;
+  top: -50%;
+  display: block;
+  top:50%;
+  margin-top: 100%;
+}
+
+@media screen and (max-width:1440px) {
+  @media screen and (max-height: 2960px){
+    .main-container .main-action-btn {
+        text-align: center;
+        box-shadow: 3vw 3vw #000, 2.5vw 2.5vw #000, 2vw 2vw #000, 1.5vw 1.5vw #000, 1vw 1vw #000, 0vw 0vw #000;
+        position: relative;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3vw 30vw;
+        display: flex;
+        font-size: 3vw;
+        top: 1vw;
+        margin-left: 50vw;
+        margin-right: 50vw;
+    }
+    .main-container .banner .ghost{
+      height: 50vw;
+      margin-left: 55vw;
+      top: 50vw;
+      padding: 1vw;
+      margin-top: 65vw;
+    }
+
+    .main-container .banner{
+      color: black;
+    }
+    .main-container .banner .main-text{
+      font-size: 4vw;
+    }
+    .main-container .banner .console-container{
+      font-size: 70%;
+      text-align: center;
+    }
+    .login-panel .login-btn{
+      font-family: 'Press Start 2P';
+      font-size:2vw; 
+      background:none;
+      border:none;
+      margin:1vw;
+      padding:0;
+      cursor:pointer;
+      float:right;
+      position: relative;
+      padding-top: 5vw;
+      padding-right: 1vw;
+      color:white;
+      display:inline-block;
+      text-decoration:none;
+    }
+
+    .login-panel .ghostcoffe{
+      height: 10vw;
+      width: auto;
+      position: relative;
+    }
+  }
+}
+
+.main-container .main-action-btn:hover{
+   color:#000000;
+   background-color:#FFFFFF;
+}
+
+.main-container .banner{
+  text-align: center;
+  color: white;
+}
+
+
+.banner{
+  color:#1A1A1A;
+}
+
+
+.credits .links{
+  position: absolute;
+  bottom: 1vw;
+  font-size: 1.0vw;
+}
+
+::-moz-selection {
+  color: red;
+  background: #2D2D2D;
+}
+
+::selection {
+  color: red;
+  background: #2D2D2D;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size:70%;
+  display:block;
+  position: relative;
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+.console-underscore {
+  text-align: center;
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+a:hover,
+a:active {
+    outline: none;
+    box-shadow: none !important;
+}

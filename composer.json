@@ -1,0 +1,11 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.4.1",
+        "spomky-labs/otphp": "^10.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "Chat\\": "src"
+        }
+    }
+}
